@@ -1,0 +1,8 @@
+html {
+    background-color: #000000;
+}
+
+.header-con {
+    border: 3px solid red;
+    height: 300px;
+}

@@ -1,10 +1,9 @@
 import React from "react";
+import HeaderContainer from "../components/HeaderContainer";
 
 function HomePage() {
     return (
-        <>
-          <p>Hello World!!</p>
-        </>
+        <HeaderContainer />
     )
 }
 
