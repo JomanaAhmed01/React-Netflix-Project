@@ -1,8 +1,8 @@
 import React from 'react';
 
-function HeaderWrapper() {
+function HeaderWrapper({children}) {
     return (
-        <></>
+    <div className="header-wrapper">{children}</div>
     )
 }
 
