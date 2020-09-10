@@ -14,3 +14,8 @@ html {
     border: 3px solid green;
     height: 400px;
 }
+
+.logo {
+    margin-left: 60px;
+    margin-top: 30px;
+}
