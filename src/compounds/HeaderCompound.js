@@ -1,13 +1,17 @@
 import React from 'react';
 import HeaderContainer from '../components/HeaderContainer';
-import HeaderWrapper from '../components/Header/HeaderWrapper'
+import Logo from '../components/Header/Logo.js';
+import NavbarContainer from '../components/Header/NavbarContainer';
+import SigninBtn from '../components/Header/SigninBtn';
 
 function HeaderCompund() {
     return (
-        <>
-        <HeaderContainer />
-        <HeaderWrapper />
-        </>
+        <HeaderContainer>
+            <NavbarContainer>
+                <Logo />
+                <SigninBtn />
+            </NavbarContainer>
+        </HeaderContainer>
     )
 }
 
