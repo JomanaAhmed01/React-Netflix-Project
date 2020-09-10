@@ -9,7 +9,7 @@ function HeaderCompund() {
         <HeaderContainer>
             <NavbarContainer>
                 <Logo />
-                <SigninBtn />
+                <SigninBt />
             </NavbarContainer>
         </HeaderContainer>
     )
