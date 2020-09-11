@@ -39,3 +39,34 @@ html {
     margin-top: 20px;
     margin-right: 58px;
 }
+
+/*############################## Header Media Query #############################*/
+
+@media (max-width: 950px) {
+    .logo {
+        width: 100px;
+        margin-left: 42px;
+    }
+
+    .signin-btn {
+        margin-right: 38px;
+    }
+}
+
+@media (max-width: 550px) {
+    .logo {
+        width: 85px;
+        margin-left: 47px;
+    }
+
+    .signin-btn {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 14px;
+        margin-right: 28px;
+    }
+}
+
+/*############################## Header Media Query #############################*/
