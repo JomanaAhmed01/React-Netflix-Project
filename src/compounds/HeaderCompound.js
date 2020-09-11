@@ -3,6 +3,7 @@ import HeaderContainer from '../components/HeaderContainer';
 import Logo from '../components/Header/Logo.js';
 import NavbarContainer from '../components/Header/NavbarContainer';
 import SigninBtn from '../components/Header/SigninBtn';
+import FeatureWrapper from '../components/Feature/FeatureWrapper';
 
 function HeaderCompund() {
     return (
@@ -11,6 +12,10 @@ function HeaderCompund() {
                 <Logo />
                 <SigninBtn />
             </NavbarContainer>
+
+            <FeatureWrapper>
+                
+            </FeatureWrapper>
         </HeaderContainer>
     )
 }
