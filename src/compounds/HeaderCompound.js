@@ -15,7 +15,7 @@ function HeaderCompund() {
             </NavbarContainer>
 
             <FeatureWrapper>
-                <FeatureTitle />
+                <FeatureTitl />
             </FeatureWrapper>
         </HeaderContainer>
     )
