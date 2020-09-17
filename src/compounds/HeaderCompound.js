@@ -6,6 +6,7 @@ import SigninBtn from '../components/Header/SigninBtn';
 import FeatureWrapper from '../components/Feature/FeatureWrapper';
 import FeatureTitle from '../components/Feature/FeatureTitle';
 import FeatureSubtitle from '../components/Feature/FeatureSubtitle';
+import OptFormCompound from './OptFormCompound';
 
 function HeaderCompund() {
     return (
@@ -19,6 +20,8 @@ function HeaderCompund() {
                 <FeatureTitle />
                 <FeatureSubtitle />
             </FeatureWrapper>
+
+            <OptFormCompound />
         </HeaderContainer>
     )
 }
