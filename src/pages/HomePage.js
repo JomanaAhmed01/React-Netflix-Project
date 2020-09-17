@@ -1,12 +1,10 @@
 import React from "react";
-import HeaderCompund from "../compounds/HeaderCompound";
-import OptFormCompound from "../compounds/OptFormCompound"
+import HeaderCompound from "../compounds/HeaderCompound";
 
 function HomePage() {
     return (
         <>
-        <HeaderCompund />
-        <OptFormCompound />
+        <HeaderCompound />
         </>
     )
 }
