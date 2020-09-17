@@ -3,7 +3,7 @@ import React from 'react';
 function OptFormEmail() {
     return (
         <>
-          <input type="text" placeholder="Email address"></input>
+          <input className="optform-email" type="text" placeholder="Email address"></input>
         </>
     )
 }
