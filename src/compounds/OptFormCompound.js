@@ -5,7 +5,7 @@ import OptFormText from '../components/OptForm/OptFormText'
 function OptFormCompound() {
     return (
         <OptFormWrapper>
-            <OptFormText />
+           
         </OptFormWrapper>
     )
 }
