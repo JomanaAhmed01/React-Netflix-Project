@@ -59,6 +59,12 @@ html {
 
 /*############################## Header Media Query #############################*/
 
+@media (max-width: 1450px) {
+    .feature-title {
+        font-size: px;
+    }
+}
+
 @media (max-width: 950px) {
     .logo {
         width: 100px;
