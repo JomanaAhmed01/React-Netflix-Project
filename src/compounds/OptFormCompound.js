@@ -6,11 +6,14 @@ import OptFormBtn from '../components/OptForm/OptFormBtn';
 
 function OptFormCompound() {
     return (
+        <>
+        <OptFormText /> 
+        
         <OptFormWrapper>
-           <OptFormText />
            <OptFormEmail />
            <OptFormBtn />
         </OptFormWrapper>
+        </>
     )
 }
 
