@@ -19,7 +19,7 @@ function JumboCompound() {
                 </JumboTextWrapper>
 
                 <JumboImageWrapper>
-                    <JumboImage />
+                    
                 </JumboImageWrapper>
             </JumboItem>
         </JumboWrapper>
