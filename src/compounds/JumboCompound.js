@@ -1,4 +1,5 @@
 import React from 'react';
+import JumboImageWrapper from '../components/Jumbo/JumboImageWrapper';
 import JumboItem from '../components/Jumbo/JumboItem';
 import JumboSubTitle from '../components/Jumbo/JumboSubTitle';
 import JumboTextWrapper from '../components/Jumbo/JumboTextWrapper';
@@ -11,12 +12,17 @@ function JumboCompound() {
       <>
         <JumboWrapper>
             <JumboItem />
-        </JumboWrapper>
 
         <JumboTextWrapper>
             <JumboTitle />
             <JumboSubTitle />
         </JumboTextWrapper>
+
+        <JumboImageWrapper>
+            
+        </JumboImageWrapper>
+
+        </JumboWrapper>
 
       </>
     )
