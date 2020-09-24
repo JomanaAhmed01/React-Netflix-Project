@@ -4,15 +4,15 @@ html {
     box-sizing: border-box;
 }
 
+/*####################################### Header #########################################*/
+
 .header-con {
     background-image: url(./images/misc/home-bg.jpg);
     background-position: top left;
     background-size: cover;
-    /* border: 3px solid red; */
 }
 
 .header-wrapper {
-    /* border: 3px solid green; */
     height: 400px;
 }
 
@@ -102,7 +102,6 @@ html {
     color: #FFFFFF;
     text-align: center;
     font-size: 19px;
-    /* border: solid yellow; */
 }
 
 @media (max-width: 950px) {
@@ -115,7 +114,6 @@ html {
     padding: 10px 20px;
     width: 450px;
     height: 38px;
-    /* border: solid green; */
     font-size: 15px;
 }
 
@@ -133,7 +131,6 @@ html {
     font-size: 25px;
     padding: 15px 40px;
     margin-bottom: 150px;
-    /* border: green; */
 }
 
 @media (max-width: 950px) {
@@ -143,3 +140,6 @@ html {
         font-size: 20px;
     }
 }
+
+/*##################################### Jumbo #######################################*/
+
