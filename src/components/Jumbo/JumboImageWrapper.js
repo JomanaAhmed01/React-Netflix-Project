@@ -1,8 +1,8 @@
 import React from 'react';
 
-function JumboImageWrapper({children}) {
+function JumboImageWrapper({children, ...restProps}) {
     return (
-    <div className="jumbo-image-wrapper">{children}</div>
+    <div className="jumbo-image-wrapper" {...restProps}>{children}</div>
     )
 }
 

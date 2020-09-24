@@ -1,8 +1,8 @@
 import React from 'react';
 
-function JumboWrapper({children}) {
+function JumboWrapper({children, ...restProps}) {
     return (
-    <div className="jumbo-wrapper">{children}</div>
+    <div className="jumbo-wrapper" {...restProps}>{children}</div>
     )
 }
 

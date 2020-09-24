@@ -1,8 +1,8 @@
 import React from 'react';
 
-function JumboTextWrapper({children}) {
+function JumboTextWrapper({children, ...restProps}) {
     return (
-    <div className="jumbo-text-wrapper">{children}</div>
+    <div className="jumbo-text-wrapper" {...restProps}>{children}</div>
     )
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
 
-function JumboItem() {
+function JumboItem({children, ...restProps}) {
     return (
-        <></>
+    <div {...restProps}>{children}</div>
     )
 }
 
