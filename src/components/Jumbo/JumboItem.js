@@ -2,7 +2,7 @@ import React from 'react'
 
 function JumboItem({children, ...restProps}) {
     return (
-    <div {...restProps}>{children}</div>
+    <div className="jumbo-item" {...restProps}>{children}</div>
     )
 }
 
