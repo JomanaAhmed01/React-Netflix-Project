@@ -1,8 +1,8 @@
 import React from 'react';
 
-function AccordionWrapper() {
+function AccordionWrapper({children, ...restProps}) {
     return (
-        <></>
+    <div className="acc-wrapper" {...restProps}>{children}</div>
     )
 }
 

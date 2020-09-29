@@ -1,8 +1,8 @@
 import React from 'react';
 
-function AccordionTitle() {
+function AccordionTitle({children, ...restProps}) {
     return (
-        <p>Haio Guys!!!</p>
+    <div className="acc-title" {...restProps}>{children}</div>
     )
 }
 
