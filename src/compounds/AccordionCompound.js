@@ -1,4 +1,5 @@
 import React from 'react';
+import AccordionBody from '../components/Accordion/AccordionBody';
 import AccordionHeader from '../components/Accordion/AccordionHeader';
 import AccordionItem from '../components/Accordion/AccordionItem';
 import AccordionTitle from '../components/Accordion/AccordionTitle';
@@ -10,6 +11,7 @@ function AccordionCompound() {
             <AccordionTitle />
             <AccordionItem>
                 <AccordionHeader />
+                <AccordionBody />
             </AccordionItem>
         </AccordionWrapper>
     )
