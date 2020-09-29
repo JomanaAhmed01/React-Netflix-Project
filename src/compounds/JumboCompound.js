@@ -2,7 +2,7 @@ import React from 'react';
 import JumboImage from '../components/Jumbo/JumboImage';
 import JumboImageWrapper from '../components/Jumbo/JumboImageWrapper';
 import JumboItem from '../components/Jumbo/JumboItem';
-import JumboSeparator from '../components/Jumbo/JumboSeparator';
+import Seperator from '../components/Jumbo/Seperator';
 import JumboSubTitle from '../components/Jumbo/JumboSubTitle';
 import JumboTextWrapper from '../components/Jumbo/JumboTextWrapper';
 import JumboTitle from '../components/Jumbo/JumboTitle';
@@ -11,7 +11,6 @@ import JumboWrapper from '../components/Jumbo/JumboWrapper';
 function JumboCompound() {
     return (
         <JumboWrapper>
-          <JumboSeparator>
             <JumboItem>
                 <JumboTextWrapper>
                     <JumboTitle>Enjoy on your TV.</JumboTitle>
@@ -22,9 +21,7 @@ function JumboCompound() {
                     <JumboImage className="jumbo-img" src="./images/misc/home-tv.jpg" />
                 </JumboImageWrapper>
             </JumboItem>
-          </JumboSeparator>
-
-          <JumboSeparator>
+            <Seperator />
             <JumboItem>
                 <JumboTextWrapper>
                    <JumboTitle>Download your shows to watch offline.</JumboTitle>
@@ -35,9 +32,7 @@ function JumboCompound() {
                     <JumboImage className="home-mobile" src="./images/misc/home-mobile.jpg" />
                 </JumboImageWrapper>
             </JumboItem>
-          </JumboSeparator>
-
-          <JumboSeparator>
+            <Seperator />
             <JumboItem>
                 <JumboTextWrapper>
                 <JumboTitle>Watch everywhere.</JumboTitle>
@@ -48,7 +43,7 @@ function JumboCompound() {
                     <JumboImage className="jumbo-img" src="./images/misc/home-imac.jpg" />
                 </JumboImageWrapper>
             </JumboItem>
-          </JumboSeparator>
+            <Seperator />
         </JumboWrapper>
     )
 }

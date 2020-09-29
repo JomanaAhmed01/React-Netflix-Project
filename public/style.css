@@ -14,7 +14,6 @@ body {
     background-image: url(./images/misc/home-bg.jpg);
     background-position: top left;
     background-size: cover;
-    border-bottom: 8px solid rgb(56, 56, 56);
 }
 
 .header-wrapper {
@@ -247,6 +246,9 @@ body {
     }
 }
 
-.jumbo-separator {
+.seperator {
     border-bottom: 8px solid rgb(56, 56, 56);
 }
+
+/*################################ FAQ ########################################*/
+
