@@ -252,3 +252,92 @@ body {
 
 /*################################ FAQ ########################################*/
 
+.acc-title {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media (max-width: 950px) {
+    .acc-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    .acc-title {
+        font-size: 13px;
+    }
+}
+
+.acc-header {
+    color: #FFFFFF;
+    font-size: 25px;
+    background-color: rgb(41, 41, 41);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0.3%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 950px) {
+    .acc-header {
+        margin-left: 11%;
+        margin-right: 11%;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .acc-header {
+        margin-left: initial;
+        margin-right: initial;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+}
+
+.acc-header img {
+    width: 23px;
+    filter: brightness(0) invert(1);
+    float: right;
+    margin-right: 30px;
+}
+
+.acc-body {
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: rgb(41, 41, 41);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0.5%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+@media (max-width: 950px) {
+    .acc-body {
+        margin-left: 11%;
+        margin-right: 11%;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 17.5px;
+    }
+}
+
+@media (max-width: 550px) {
+    .acc-body {
+       margin-right: initial;
+       margin-left: initial; 
+    }
+}

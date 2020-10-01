@@ -1,9 +1,16 @@
 import React from 'react';
 
 function AccordionBody({children, ...restProps}) {
-    return (
-    <div className="acc-body" {...restProps}>{children}</div>
-    )
+    let FAQState = 'jajajaj';
+
+    if (FAQState === 'open') {
+        return (
+            <div className="acc-body" {...restProps}>{children}</div>
+            )
+    } else {
+        return null;
+    }
+   
 }
 
 export default AccordionBody;
