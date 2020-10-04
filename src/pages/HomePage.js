@@ -3,6 +3,7 @@ import HeaderCompound from "../compounds/HeaderCompound";
 import JumboCompound from "../compounds/JumboCompound";
 import Seperator from "../components/Jumbo/Seperator"
 import AccordionCompound from "../compounds/AccordionCompound";
+import FooterCompound from "../compounds/FooterCompound";
 
 function HomePage() {
     return (
@@ -11,6 +12,7 @@ function HomePage() {
         <Seperator />
         <JumboCompound />
         <AccordionCompound />
+        <FooterCompound />
         </>
     )
 }
