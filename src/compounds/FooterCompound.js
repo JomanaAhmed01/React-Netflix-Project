@@ -1,4 +1,5 @@
 import React from 'react';
+import FooterColumn from '../components/Footer/FooterColumn';
 import FooterRow from '../components/Footer/FooterRow';
 import FooterTitle from '../components/Footer/FooterTitle';
 import FooterWrapper from "../components/Footer/FooterWrapper";
@@ -12,7 +13,9 @@ function FooterCompound() {
             <FooterTitle />
 
             <FooterRow>
-                
+                <FooterColumn>
+                    
+                </FooterColumn>
             </FooterRow>
         </FooterWrapper>
       </>
