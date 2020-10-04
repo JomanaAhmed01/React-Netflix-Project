@@ -341,3 +341,7 @@ body {
        margin-left: initial; 
     }
 }
+
+.optform-text {
+    margin-top: 80px;
+}

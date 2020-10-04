@@ -4,6 +4,10 @@ import AccordionHeader from '../components/Accordion/AccordionHeader';
 import AccordionItem from '../components/Accordion/AccordionItem';
 import AccordionTitle from '../components/Accordion/AccordionTitle';
 import AccordionWrapper from '../components/Accordion/AccordionWrapper';
+import OptFormWrapper from '../components/OptForm/OptFormWrapper'
+import OptFormText from '../components/OptForm/OptFormText'
+import OptFormEmail from '../components/OptForm/OptFormEmail'
+import OptFormBtn from '../components/OptForm/OptFormBtn';
 
 function AccordionCompound() {
     return (
@@ -33,7 +37,16 @@ function AccordionCompound() {
                 <AccordionHeader>What can I watch on Netflix?</AccordionHeader>
                 <AccordionBody>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</AccordionBody>
             </AccordionItem>
+
+            <OptFormText /> 
+        
+            <OptFormWrapper>
+               <OptFormEmail />
+               <OptFormBtn />
+            </OptFormWrapper>
         </AccordionWrapper>
+
+        
     )
 }
 
