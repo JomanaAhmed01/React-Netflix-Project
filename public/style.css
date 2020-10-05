@@ -376,7 +376,6 @@ body {
 }
 
 .footer-row {
-    border: solid red;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -399,7 +398,6 @@ body {
 }
 
 .footer-column {
-    border: solid yellow;
     line-height: 30px;
 }
 
