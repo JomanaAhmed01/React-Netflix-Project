@@ -349,6 +349,62 @@ body {
 /*###################################### Footer ######################################*/
 
 .footer-wrapper {
-    height: 500px;
-    border: 3px solid red;
+    margin-bottom: 60px;
+    padding: 30px 50px;
+}
+
+.footer-title {
+    color: #757575;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-link {
+    color: #757575;
+    font-size: 13px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-row {
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .footer-row {
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer-row {
+        width: 100%;
+    }
+}
+
+.footer-column {
+    border: solid yellow;
+    line-height: 30px;
+}
+
+@media (max-width: 900px) {
+    .footer-column {
+        width: 40%;
+    }
 }
