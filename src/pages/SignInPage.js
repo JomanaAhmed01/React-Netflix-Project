@@ -1,13 +1,13 @@
 import React from 'react';
-import HeaderWrapper from '../components/Header/HeaderWrapper'
+import HeaderContainer from '../components/Header/HeaderContainer';
 import Logo from '../components/Header/Logo';
 import NavbarContainer from '../components/Header/NavbarContainer';
-import FooterCompound from '../compounds/FooterCompound'
+import FooterCompound from '../compounds/FooterCompound';
 
 function SignInPage() {
     return (
         <>
-          <HeaderWrapper />
+          <HeaderContainer />
           <NavbarContainer />
           <Logo />
           <FooterCompound />
