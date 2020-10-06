@@ -445,3 +445,11 @@ body {
     height: 25px;
     font-size: 17px;
 }
+
+.signform-password {
+    padding: 10px 20px;
+    width: 280px;
+    height: 25px;
+    font-size: 17px;
+    margin-top: 15px;
+}
