@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Logo() {
+function Logo({...restProps}) {
     return (
-        <img className="logo" src="./images/misc/logo.svg" width="120px" />
+        <img className="logo" {...restProps} src="./images/misc/logo.svg" width="120px" />
     )
 }
 

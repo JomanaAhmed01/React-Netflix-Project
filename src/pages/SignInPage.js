@@ -8,9 +8,10 @@ import FooterCompound from '../compounds/FooterCompound';
 function SignInPage() {
     return (
         <>
-          <HeaderContainer />
-          <NavbarContainer />
-          <Logo />
+          <HeaderContainer className="header-con-signin">
+            <NavbarContainer />
+            <Logo className="logo-signin" />
+          </HeaderContainer>
           <SignFormWrapper />
           <FooterCompound />
         </>

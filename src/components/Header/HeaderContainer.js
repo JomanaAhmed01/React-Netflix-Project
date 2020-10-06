@@ -1,8 +1,8 @@
 import React from 'react';
 
-function HeaderContainer({children}) {
+function HeaderContainer({children, ...restProps}) {
     return (
-        <div className="header-con">{children}</div>
+        <div className="header-con" {...restProps}>{children}</div>
     )
 }
 

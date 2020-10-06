@@ -408,3 +408,16 @@ body {
 }
 
 /*###################################### Sign In ##############################################*/
+
+.header-con-signin {
+    background-image: url(./images/misc/home-bg.jpg);
+    background-position: top left;
+    background-size: cover;
+    height: 840px;
+}
+
+.logo-signin {
+    width: 170px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
