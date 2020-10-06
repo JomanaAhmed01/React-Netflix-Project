@@ -13,11 +13,12 @@ function SignInPage() {
           <HeaderContainer className="header-con-signin">
             <NavbarContainer />
             <Logo className="logo-signin" />
-            <SignFormBase>
-            <SignFormTitle />
-          </SignFormBase>
+            <SignFormWrapper>
+              <SignFormBase>
+                <SignFormTitle />
+              </SignFormBase>
+            </SignFormWrapper>
           </HeaderContainer>
-          <SignFormWrapper />
           <FooterCompound />
         </>
     )
