@@ -466,5 +466,19 @@ body {
 }
 
 .signform-text {
-    display: inline;
+    color: #757575;
+    position: relative;
+    top: 25%;
+    margin-right: 7px;
+}
+
+.signform-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 25%;
+}
+
+.signform-link:hover {
+    text-decoration: underline;
 }
