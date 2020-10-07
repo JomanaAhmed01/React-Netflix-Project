@@ -5,6 +5,7 @@ import NavbarContainer from '../components/Header/NavbarContainer';
 import SignFormBase from '../components/SignIn/SignFormBase';
 import SignFormBtn from '../components/SignIn/SignFormBtn';
 import SignFormInput from '../components/SignIn/SignFormInput';
+import SignFormText from '../components/SignIn/SignFormText';
 import SignFormTitle from '../components/SignIn/SignFormTitle';
 import SignFormWrapper from '../components/SignIn/SignFormWrapper';
 import FooterCompound from '../compounds/FooterCompound';
@@ -20,6 +21,7 @@ function SignInPage() {
                 <SignFormTitle />
                 <SignFormInput />
                 <SignFormBtn />
+                <SignFormText />
               </SignFormBase>
             </SignFormWrapper>
           </HeaderContainer>
