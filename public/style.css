@@ -464,3 +464,7 @@ body {
     padding: 15px 137px;
     border-radius: 3px;
 }
+
+.signform-text {
+    display: inline;
+}

@@ -5,6 +5,7 @@ import NavbarContainer from '../components/Header/NavbarContainer';
 import SignFormBase from '../components/SignIn/SignFormBase';
 import SignFormBtn from '../components/SignIn/SignFormBtn';
 import SignFormInput from '../components/SignIn/SignFormInput';
+import SignFormLink from '../components/SignIn/SignFormLink';
 import SignFormText from '../components/SignIn/SignFormText';
 import SignFormTitle from '../components/SignIn/SignFormTitle';
 import SignFormWrapper from '../components/SignIn/SignFormWrapper';
@@ -22,6 +23,7 @@ function SignInPage() {
                 <SignFormInput />
                 <SignFormBtn />
                 <SignFormText />
+                <SignFormLink />
               </SignFormBase>
             </SignFormWrapper>
           </HeaderContainer>

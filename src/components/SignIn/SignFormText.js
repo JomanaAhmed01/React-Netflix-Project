@@ -2,7 +2,7 @@ import React from 'react';
 
 function SignFormText({children, ...restProps}) {
     return (
-    <div {...restProps}>{children}<p className="signform-text">New to Netflix?</p></div>
+    <p className="signform-text" {...restProps}>{children}New to Netflix?</p>
     )
 }
 
