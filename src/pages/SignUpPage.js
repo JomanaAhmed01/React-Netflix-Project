@@ -23,6 +23,7 @@ function SignUpPage() {
                 <SignFormTitle />
                 <SignFormInput type="text" placeholder="Email or phone number" />
                 <SignFormInput type="password" placeholder="password"/>
+                <SignFormInput type="text" placeholder="First name" />
                 <SignFormBtn />
                 <SignFormText />
                 <SignFormLink />
