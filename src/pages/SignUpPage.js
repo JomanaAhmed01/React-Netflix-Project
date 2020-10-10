@@ -12,7 +12,7 @@ import SignFormTitle from '../components/SignIn/SignFormTitle';
 import SignFormWrapper from '../components/SignIn/SignFormWrapper';
 import FooterCompound from '../compounds/FooterCompound';
 
-function SignInPage() {
+function SignUpPage() {
     return (
         <>
           <HeaderContainer className="header-con-signin">
@@ -35,4 +35,4 @@ function SignInPage() {
     )
 }
 
-export default SignInPage;
+export default SignUpPage;
