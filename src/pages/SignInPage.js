@@ -20,12 +20,12 @@ function SignInPage() {
             <Logo className="logo-signin" />
             <SignFormWrapper>
               <SignFormBase>
-                <SignFormTitle />
+                <SignFormTitle><h2>Sign In</h2></SignFormTitle>
                 <SignFormInput type="text" placeholder="Email or phone number" />
                 <SignFormInput type="password" placeholder="password"/>
-                <SignFormBtn />
-                <SignFormText />
-                <SignFormLink />
+                <SignFormBtn>Sign In</SignFormBtn>
+                <SignFormText>New to Netflix?</SignFormText>
+                <SignFormLink href="/signup">Sign in</SignFormLink>
                 <SignFormCaptcha />
               </SignFormBase>
             </SignFormWrapper>

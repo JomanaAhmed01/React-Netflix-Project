@@ -2,7 +2,9 @@ import React from 'react';
 
 function SignFormLink({children, ...restProps}) {
     return (
-    <a className="signform-link" href="/signup" {...restProps}>{children}Sign up now.</a>
+    <div className="signform-link" {...restProps}>
+        <a {...restProps}>{children}</a>
+    </div>
     )
 }
 

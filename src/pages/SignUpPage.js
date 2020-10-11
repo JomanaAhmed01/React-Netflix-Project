@@ -20,13 +20,13 @@ function SignUpPage() {
             <Logo className="logo-signin" />
             <SignFormWrapper>
               <SignFormBase>
-                <SignFormTitle />
+                <SignFormTitle><h2>Sign Up</h2></SignFormTitle>
+                <SignFormInput type="text" placeholder="First name" />
                 <SignFormInput type="text" placeholder="Email or phone number" />
                 <SignFormInput type="password" placeholder="password"/>
-                <SignFormInput type="text" placeholder="First name" />
-                <SignFormBtn />
-                <SignFormText />
-                <SignFormLink />
+                <SignFormBtn>Sign Up</SignFormBtn>
+                <SignFormText>Old to Netflix?</SignFormText>
+                <SignFormLink><a href="/signin">Sign up.</a></SignFormLink>
                 <SignFormCaptcha />
               </SignFormBase>
             </SignFormWrapper>
