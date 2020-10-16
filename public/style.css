@@ -558,7 +558,7 @@ body {
 
 @media (max-width: 740px) {
     .signform-captcha {
-        margin-top: 140px;
+        margin-top: 80px;
         width: initial;
     }
 }
