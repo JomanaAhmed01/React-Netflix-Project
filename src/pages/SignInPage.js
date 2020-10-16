@@ -17,7 +17,7 @@ function SignInPage() {
         <>
           <HeaderContainer className="header-con-signin">
             <NavbarContainer />
-            <Logo className="logo-signin" />
+            <Logo className="logo-signin"/>
             <SignFormWrapper>
               <SignFormBase>
                 <SignFormTitle><h2>Sign In</h2></SignFormTitle>
