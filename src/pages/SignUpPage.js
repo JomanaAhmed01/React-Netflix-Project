@@ -26,7 +26,7 @@ function SignUpPage() {
                 <SignFormInput type="password" placeholder="password"/>
                 <SignFormBtn>Sign Up</SignFormBtn>
                 <SignFormText>Old to Netflix?</SignFormText>
-                <SignFormLink><a href="/signin">Sign up.</a></SignFormLink>
+                <SignFormLink><a href="/signin">Sign In.</a></SignFormLink>
                 <SignFormCaptcha />
               </SignFormBase>
             </SignFormWrapper>

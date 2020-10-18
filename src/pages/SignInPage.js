@@ -17,7 +17,7 @@ function SignInPage() {
         <>
           <HeaderContainer className="header-con-signin">
             <NavbarContainer />
-            <Logo className="logo-signin" />
+            <Logo className="logo-signin"/>
             <SignFormWrapper>
               <SignFormBase>
                 <SignFormTitle><h2>Sign In</h2></SignFormTitle>
@@ -25,7 +25,7 @@ function SignInPage() {
                 <SignFormInput type="password" placeholder="password"/>
                 <SignFormBtn>Sign In</SignFormBtn>
                 <SignFormText>New to Netflix?</SignFormText>
-                <SignFormLink href="/signup">Sign in</SignFormLink>
+                <SignFormLink href="/signup">Sign Up</SignFormLink>
                 <SignFormCaptcha />
               </SignFormBase>
             </SignFormWrapper>

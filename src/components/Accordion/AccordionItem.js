@@ -1,11 +1,12 @@
 import React from 'react';
-import {useState} from 'react';
+import { useState } from 'react';
 
-function AccordionItem({children, ...restProps}) {
-    const [FAQState, setFAQState] = useState('close');
+function AccordionItem({ children, ...restProps }) {
 
     return (
-    <div className="acc-item" {...restProps}>{children}</div>
+        <div className="acc-item" {...restProps}>
+            {children}
+        </div>
     )
 }
 
