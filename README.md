@@ -34,12 +34,12 @@
 
 <div align="center"><a name="menu"></a>
 
-![ScreenShot](/public/images/readme/5.jpg)
-![ScreenShot](/public/images/readme/6.jpg)
-![ScreenShot](/public/images/readme/7.jpg)
-![ScreenShot](/public/images/readme/8.jpg)
-![ScreenShot](/public/images/readme/9.jpg)
-![ScreenShot](/public/images/readme/10.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/1.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/2.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/3.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/4.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/5.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/6.jpg)
 </div>
 
 The Home Page consists of 5 main sections:
@@ -73,8 +73,8 @@ It contains useful links users may need it.
  
  <div align="center"><a name="menu"></a>
 
-![ScreenShot](/public/images/readme/11.jpg)
-![ScreenShot](/public/images/readme/12.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/7.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/8.jpg)
 </div>
 
 The Sign-in Page consists of 3 main sections:
@@ -103,8 +103,8 @@ It contains useful links users may need it.
  
 <div align="center"><a name="menu"></a>
 
-![ScreenShot](/public/images/readme/13.jpg)
-![ScreenShot](/public/images/readme/12.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/9.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/10.jpg)
 </div>
 
 The Sign-up Page consists of 3 main sections:
