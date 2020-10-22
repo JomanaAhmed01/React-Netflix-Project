@@ -1,68 +1,176 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img title="Netflix" src="https://fhsknightlife.com/wp-content/uploads/2020/04/uVASXqvMzyUrAPfSn9pMtxOC7s89ulzdDKBdtqCP.png" alt="NETFLIX Logo" width="400" />
+  <br>
+  Netflix Clone Built Using React.JS & Firebase
+</h1>
 
-## Available Scripts
+<p><font size="3">
+  This is a clone of Netflix website built using <strong><em>React.JS</em></strong>, It's not a replica, and it doesn't have all the features of Netflix website. it's a similar version of Netflix with my own design touch, showing my abilities in React.JS to build something advanced like Netflix. It contains the home page, sign-in page, sign-up page.
+  <br><br> 
+  <strong><em>Take a look at the live version here:</em></strong> https://react-netflix-clone-red.vercel.app/ :octocat: :heart_eyes:
+</p>
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Project Walk-Through](#project-walk-through)
+  - [Home Page](#home-page)
+  - [Sign-in Page](#sign-in-page)
+  - [Sign-up Page](#sign-up-page)
+  - [Browse Page](#browse-page)
+- [Live Demo](#live-demo)
+- [Technology Used](#technology-used)
+- [How To Use](#how-to-use)
+- [Author](#author)
+- [Show Your Support](#show-your-support)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Project Walk-Through
 
-### `npm run build`
+ # Home Page
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align="center"><a name="menu"></a>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![ScreenShot](/public/images/readme/5.jpg)
+![ScreenShot](/public/images/readme/6.jpg)
+![ScreenShot](/public/images/readme/7.jpg)
+![ScreenShot](/public/images/readme/8.jpg)
+![ScreenShot](/public/images/readme/9.jpg)
+![ScreenShot](/public/images/readme/10.jpg)
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Home Page consists of 5 main sections:
 
-### `npm run eject`
+***1) Header, which includes:***
+- Logo: 
+it redirects you to the home page when you click on it.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Sign-in button: 
+ it redirects you to the sign-in page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Feature title & subtitle:
+It shows the main sentences of the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+***2) Optform:***
+It's a text input field and a button,  It redirects you to the sign-up page once you click on the button.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+***3) Jumbotron:***
+This section contains some images and paragraphs beside it, showing the advantages of Netflix. The data of this Jumbotron came from jumbo.json file.
 
-## Learn More
+***4) Frequently Asked Questions:***
+This section contains the FAQs in a form of accordion, when you click anywhere in the gray area of the question the answer appears below it, and then you can close the answer by clicking again on the same gray area of the question. The data of these FAQs came from faqs.json file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+***5) Footer:***
+It contains useful links users may need it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+***### The page is fully responsive to all mobile devices even the small ones. ###***
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+ # Sign-in Page
+ 
+ <div align="center"><a name="menu"></a>
 
-### Analyzing the Bundle Size
+![ScreenShot](/public/images/readme/11.jpg)
+![ScreenShot](/public/images/readme/12.jpg)
+</div>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+The Sign-in Page consists of 3 main sections:
 
-### Making a Progressive Web App
+***1) Header, which includes:***
+- Logo: 
+it redirects you to the home page when you click on it.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+***2) Sign-in Form, which includes:***
+- Email address input field.
 
-### Advanced Configuration
+- Password input field.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Sign-in Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for authentication. It has also an error handling function.
 
-### Deployment
+- Link to Sign-up Page:  it redirects you to the sign-up page. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+***3) Footer:***
+It contains useful links users may need it.
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+***### The page is fully responsive to all mobile devices even the small ones. ###***
+
+
+ # Sign-up Page
+ 
+<div align="center"><a name="menu"></a>
+
+![ScreenShot](/public/images/readme/13.jpg)
+![ScreenShot](/public/images/readme/12.jpg)
+</div>
+
+The Sign-up Page consists of 3 main sections:
+
+***1) Header, which includes:***
+- Logo: 
+it redirects you to the home page when you click on it.
+
+***2) Sign-up Form, which includes:***
+- First Name input field.
+
+- Email address input field.
+
+- Password input field.
+
+- Sign-up Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for registration. It has also an error handling function.
+
+- Link to Sign-in Page:  it redirects you to the sign-in page.
+
+
+***3) Footer:***
+It contains useful links users may need it.
+
+***### The page is fully responsive to all mobile devices even the small ones. ###***
+
+# Live Demo
+
+***Take a look on the live version here:*** https://react-netflix-clone-red.vercel.app/ :octocat: :heart_eyes: 
+
+
+# Technology Used
+
+I have built this project using the following tools & techniques:
+- React.JS
+- React Router.
+- React Forms.
+- React Hooks.
+- useState.
+- useContext.
+- useEffect.
+- useHistory.
+- useState.
+- Compound Components.
+- JSX.
+- CSS Modules.
+- VSCode.
+- Github Actions.
+- Github Pages.
+
+# Author
+
+👤 **Ahmed Tohamy**
+- Github: https://github.com/JomanaAhmed01
+- Email: ojy.ahmed@outlook.com
+
+# Show Your Support
+
+Give a ⭐️ if you like this project!
+
+# Acknowledgments
+
+Hat tip to everyone helped me to learn the techniques used in building this project.
+
+# License 
+
+MIT License.
+
+
+
