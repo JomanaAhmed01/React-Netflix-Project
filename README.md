@@ -156,7 +156,7 @@ I have built this project using the following tools & techniques:
 
 # Author
 
-👤 **Ahmed Tohamy**
+👤 **Jomana Ahmed**
 - Github: https://github.com/JomanaAhmed01
 - Email: ojy.ahmed@outlook.com
 
