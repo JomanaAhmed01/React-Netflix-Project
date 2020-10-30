@@ -154,6 +154,7 @@ I have built this project using the following tools & techniques:
 👤 **Jomana Ahmed**
 - Github: https://github.com/JomanaAhmed01
 - Email: ojy.ahmed@outlook.com
+- LinkedIn : https://www.linkedin.com/in/jomana-ahmed/
 
 # Show Your Support
 
