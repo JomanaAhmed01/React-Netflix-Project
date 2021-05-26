@@ -716,25 +716,3 @@ body {
     margin-top: 10px;
   }
 }
-
-/* @media screen and (max-width: 730px) {
-  .browse-title {
-    width: 90%;
-    border: 3px solid red;
-  }
-
-  .browse-subtitle {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .browse-title {
-    font-size: 30px;
-  }
-
-  .browse-subtitle {
-    font-size: 18px;
-    width: 100%;
-  }
-} */
