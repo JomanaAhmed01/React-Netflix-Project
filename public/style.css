@@ -716,3 +716,31 @@ body {
     margin-top: 10px;
   }
 }
+
+.browse-movies {
+  border: 3px solid green;
+  margin-left: 50px;
+}
+
+.browse-drama {
+  margin-bottom: 50px;
+}
+
+.browse-drama-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-movies {
+}
+
+.browse-drama-pic {
+  width: 245px;
+  height: 132px;
+}
+
+.browse-drama-pic:hover {
+  transform: scale(1.2);
+}

@@ -34,7 +34,7 @@ function Browse() {
           <p className="browse-drama-title">Drama</p>
           <div className="browse-drama-movies">
             <img
-              className="browse-drama-1st"
+              className="browse-drama-pic"
               src="/images/films/drama/fight-club/small.jpg"
               alt="Fight Club"
             ></img>
