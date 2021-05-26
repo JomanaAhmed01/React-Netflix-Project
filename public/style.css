@@ -613,10 +613,9 @@ body {
 }
 
 .browse-header {
-  padding-left: 70px;
+  padding-left: 50px;
   margin-top: -10px;
   width: 100%;
-  border: 3px solid green;
 }
 
 .browse-title {
@@ -626,6 +625,7 @@ body {
   font-weight: 700;
   line-height: normal;
   text-shadow: rgb(0 0 0 / 45%) 2px 2px 4px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .browse-subtitle {
@@ -634,7 +634,7 @@ body {
   width: 630px;
   text-shadow: rgb(0 0 0 / 45%) 2px 2px 4px;
   margin-top: -35px;
-  border: 3px solid black;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 730px) {

@@ -1,6 +1,7 @@
 import React from "react"
 import Logo from "../components/Header/Logo.js"
 
+
 function Browse() {
   return (
     <div className="browse-wrapper">
