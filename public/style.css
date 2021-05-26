@@ -718,8 +718,8 @@ body {
 }
 
 .browse-movies {
-  border: 3px solid green;
   margin-left: 50px;
+  padding-top: 20px;
 }
 
 .browse-drama {
@@ -729,7 +729,7 @@ body {
 .browse-drama-title {
   color: #ffffff;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Roboto", sans-serif;
 }
 
@@ -737,10 +737,107 @@ body {
 }
 
 .browse-drama-pic {
-  width: 245px;
-  height: 132px;
+  width: 240px;
+  height: 135px;
+  margin-right: 10px;
 }
 
 .browse-drama-pic:hover {
+  transform: scale(1.2);
+}
+
+.browse-thriller {
+  margin-bottom: 50px;
+}
+
+.browse-thriller-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-thriller-movies {
+}
+
+.browse-thriller-pic {
+  width: 240px;
+  height: 135px;
+  margin-right: 10px;
+}
+
+.browse-thriller-pic:hover {
+  transform: scale(1.2);
+}
+
+.browse-children {
+  margin-bottom: 50px;
+}
+
+.browse-children-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-children-movies {
+}
+
+.browse-children-pic {
+  width: 240px;
+  height: 135px;
+  margin-right: 10px;
+}
+
+.browse-children-pic:hover {
+  transform: scale(1.2);
+}
+
+.browse-suspense {
+  margin-bottom: 50px;
+}
+
+.browse-suspense-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-suspense-movies {
+}
+
+.browse-suspense-pic {
+  width: 240px;
+  height: 135px;
+  margin-right: 10px;
+}
+
+.browse-suspense-pic:hover {
+  transform: scale(1.2);
+}
+
+.browse-romance {
+  margin-bottom: 50px;
+}
+
+.browse-romance-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-romance-movies {
+}
+
+.browse-romance-pic {
+  width: 240px;
+  height: 135px;
+  margin-right: 10px;
+}
+
+.browse-romance-pic:hover {
   transform: scale(1.2);
 }
