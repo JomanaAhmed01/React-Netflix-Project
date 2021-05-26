@@ -718,8 +718,10 @@ body {
 }
 
 .browse-movies {
-  margin-left: 50px;
+  padding-left: 50px;
   padding-top: 20px;
+  -webkit-box-align: center;
+  border: 3px solid green;
 }
 
 .browse-drama {
