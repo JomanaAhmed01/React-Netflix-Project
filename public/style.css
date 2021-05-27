@@ -718,9 +718,24 @@ body {
 }
 
 .browse-movies {
-  padding-left: 50px;
-  padding-top: 20px;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   -webkit-box-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1105px) {
+  .browse-movies {
+    padding-left: 120px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .browse-movies {
+    padding-left: 50px;
+  }
 }
 
 .browse-drama {
@@ -735,12 +750,32 @@ body {
 }
 
 .browse-drama-movies {
+  
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-movies {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .browse-drama-pic {
-  width: 240px;
-  height: 135px;
+  width: 19%;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1105px) {
+  .browse-drama-pic {
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-pic {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .browse-drama-pic:hover {
@@ -761,10 +796,29 @@ body {
 .browse-thriller-movies {
 }
 
+@media screen and (max-width: 650px) {
+  .browse-thriller-movies {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .browse-thriller-pic {
-  width: 240px;
-  height: 135px;
+  width: 19%;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1105px) {
+  .browse-thriller-pic {
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .browse-thriller-pic {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .browse-thriller-pic:hover {
@@ -785,10 +839,29 @@ body {
 .browse-children-movies {
 }
 
+@media screen and (max-width: 650px) {
+  .browse-children-movies {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .browse-children-pic {
-  width: 240px;
-  height: 135px;
+  width: 19%;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1105px) {
+  .browse-children-pic {
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .browse-children-pic {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .browse-children-pic:hover {
@@ -809,10 +882,29 @@ body {
 .browse-suspense-movies {
 }
 
+@media screen and (max-width: 650px) {
+  .browse-suspense-movies {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .browse-suspense-pic {
-  width: 240px;
-  height: 135px;
+  width: 19%;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1105px) {
+  .browse-suspense-pic {
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .browse-suspense-pic {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .browse-suspense-pic:hover {
@@ -833,10 +925,29 @@ body {
 .browse-romance-movies {
 }
 
+@media screen and (max-width: 650px) {
+  .browse-romance-movies {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .browse-romance-pic {
-  width: 240px;
-  height: 135px;
+  width: 19%;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1105px) {
+  .browse-romance-pic {
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .browse-romance-pic {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .browse-romance-pic:hover {
