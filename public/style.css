@@ -750,7 +750,6 @@ body {
 }
 
 .browse-drama-movies {
-  
 }
 
 @media screen and (max-width: 650px) {
@@ -952,4 +951,48 @@ body {
 
 .browse-romance-pic:hover {
   transform: scale(1.2);
+}
+
+.browse-drama-fight-club {
+}
+
+.browse-drama-fight-club-desc {
+  background: url(/images/films/drama/fight-club/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-fight-club-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-fight-club-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-fight-club-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-fight-club-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-fight-club-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
 }

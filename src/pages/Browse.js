@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import Logo from "../components/Header/Logo.js"
 import FooterColumn from "../components/Footer/FooterColumn"
 import FooterLink from "../components/Footer/FooterLink"
@@ -7,6 +7,8 @@ import FooterTitle from "../components/Footer/FooterTitle"
 import FooterWrapper from "../components/Footer/FooterWrapper"
 
 function Browse() {
+  const [showFightClubInfo, setShowFightClubInfo] = useState(false)
+
   return (
     <div className="browse-wrapper">
       <div className="browse-first-part">
@@ -41,7 +43,8 @@ function Browse() {
               className="browse-drama-pic"
               src="/images/films/drama/fight-club/small.jpg"
               alt="Fight Club"
-            ></img>
+              onClick={() => setShowFightClubInfo(true)}
+            />
             <img
               className="browse-drama-pic"
               src="/images/films/drama/the-prestige/small.jpg"
@@ -63,6 +66,30 @@ function Browse() {
               alt="Kings Speech"
             ></img>
           </div>
+
+          {showFightClubInfo ? (
+            <div className="browse-drama-fight-club">
+              <div className="browse-drama-fight-club-desc">
+                <div className="browse-drama-fight-club-title-and-icon-wrapper">
+                  <p className="browse-drama-fight-club-title">Fight Club</p>
+                  <div className="browse-drama-fight-club-close-icon-wrapper">
+                    <img
+                      className="browse-drama-fight-club-close-icon"
+                      src="/images/icons/close.png"
+                      onClick={() => setShowFightClubInfo(false)}
+                    ></img>
+                  </div>
+                </div>
+                <p className="browse-drama-fight-club-subtitle">
+                  Discontented with his capitalistic lifestyle, a white-collared
+                  insomniac forms an underground fight club with Tyler, a
+                  careless soap salesman. The project soon spirals down into
+                  something sinister.
+                </p>
+                <button className="browse-header-play-button">Play</button>
+              </div>
+            </div>
+          ) : null}
         </div>
 
         <div className="browse-thriller">
