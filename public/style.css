@@ -953,6 +953,8 @@ body {
   transform: scale(1.2);
 }
 
+ /* ***************** Fight Club Styles *********************** */
+
 .browse-drama-fight-club {
 }
 
@@ -993,6 +995,190 @@ body {
 }
 
 .browse-drama-fight-club-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+ /* ***************** The Prestige Styles *********************** */
+
+.browse-drama-the-prestige {
+}
+
+.browse-drama-the-prestige-desc {
+  background: url(/images/films/drama/the-prestige/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-the-prestige-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-the-prestige-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-the-prestige-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-the-prestige-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-the-prestige-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** The Social Network Styles *********************** */
+
+ .browse-drama-the-social-network {
+}
+
+.browse-drama-the-social-network-desc {
+  background: url(/images/films/drama/the-social-network/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-the-social-network-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-the-social-network-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-the-social-network-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-the-social-network-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-the-social-network-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** The Revenant Styles *********************** */
+
+ .browse-drama-the-revenant {
+}
+
+.browse-drama-the-revenant-desc {
+  background: url(/images/films/drama/the-revenant/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-the-revenant-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-the-revenant-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-the-revenant-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-the-revenant-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-the-revenant-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Kings Speech Styles *********************** */
+
+ .browse-drama-kings-speech {
+}
+
+.browse-drama-kings-speech-desc {
+  background: url(/images/films/drama/kings-speech/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-kings-speech-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-kings-speech-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-kings-speech-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-kings-speech-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-kings-speech-close-icon {
   filter: brightness(0) invert(1);
   width: 24px;
 }
