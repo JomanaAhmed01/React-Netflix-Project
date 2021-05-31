@@ -1139,7 +1139,7 @@ body {
 
 /* ***************** Kings Speech Styles *********************** */
 
- .browse-drama-kings-speech {
+.browse-drama-kings-speech {
 }
 
 .browse-drama-kings-speech-desc {
@@ -1179,6 +1179,926 @@ body {
 }
 
 .browse-drama-kings-speech-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Night Crawler Styles *********************** */
+
+.browse-drama-night-crawler {
+}
+
+.browse-drama-night-crawler-desc {
+  background: url(/images/films/thriller/nightcrawler/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-night-crawler-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-night-crawler-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-night-crawler-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-night-crawler-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-night-crawler-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** The Silence Of The Lambs Styles *********************** */
+
+.browse-drama-the-silence-of-the-lambs {
+}
+
+.browse-drama-the-silence-of-the-lambs-desc {
+  background: url(/images/films/thriller/the-silence-of-the-lambs/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-the-silence-of-the-lambs-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-the-silence-of-the-lambs-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-the-silence-of-the-lambs-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-the-silence-of-the-lambs-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-the-silence-of-the-lambs-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Black Swan Styles *********************** */
+
+.browse-drama-black-swan {
+}
+
+.browse-drama-black-swan-desc {
+  background: url(/images/films/thriller/black-swan/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-black-swan-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-black-swan-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-black-swan-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-black-swan-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-black-swan-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Joker Styles *********************** */
+
+.browse-drama-joker {
+}
+
+.browse-drama-joker-desc {
+  background: url(/images/films/thriller/joker/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-joker-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-joker-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-joker-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-joker-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-joker-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** A Quiet Place Styles *********************** */
+
+.browse-drama-a-quiet-place {
+}
+
+.browse-drama-a-quiet-place-desc {
+  background: url(/images/films/thriller/a-quiet-place/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-a-quiet-place-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-a-quiet-place-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-a-quiet-place-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-a-quiet-place-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-a-quiet-place-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Hotel Transylvania Styles *********************** */
+
+.browse-drama-hotel-transylvania {
+}
+
+.browse-drama-hotel-transylvania-desc {
+  background: url(/images/films/children/hotel-transylvania/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-hotel-transylvania-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-hotel-transylvania-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-hotel-transylvania-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-hotel-transylvania-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-hotel-transylvania-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Spirited Away Styles *********************** */
+
+.browse-drama-spirited-away {
+}
+
+.browse-drama-spirited-away-desc {
+  background: url(/images/films/children/spirited-away/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-spirited-away-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-spirited-away-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-spirited-away-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-spirited-away-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-spirited-away-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Up Styles *********************** */
+
+.browse-drama-up {
+}
+
+.browse-drama-up-desc {
+  background: url(/images/films/children/up/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-up-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-up-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-up-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-up-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-up-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Frozen Styles *********************** */
+
+.browse-drama-frozen {
+}
+
+.browse-drama-frozen-desc {
+  background: url(/images/films/children/frozen/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-frozen-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-frozen-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-frozen-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-frozen-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-frozen-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Despicable Me Styles *********************** */
+
+.browse-drama-despicable-me {
+}
+
+.browse-drama-despicable-me-desc {
+  background: url(/images/films/children/despicable-me/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-despicable-me-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-despicable-me-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-despicable-me-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-despicable-me-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-despicable-me-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Shutter Island Styles *********************** */
+
+.browse-drama-shutter-island {
+}
+
+.browse-drama-shutter-island-desc {
+  background: url(/images/films/suspense/shutter-island/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-shutter-island-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-shutter-island-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-shutter-island-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-shutter-island-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-shutter-island-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Seven Styles *********************** */
+
+.browse-drama-seven {
+}
+
+.browse-drama-seven-desc {
+  background: url(/images/films/suspense/seven/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-seven-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-seven-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-seven-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-seven-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-seven-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Prisoners Styles *********************** */
+
+.browse-drama-prisoners {
+}
+
+.browse-drama-prisoners-desc {
+  background: url(/images/films/suspense/prisoners/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-prisoners-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-prisoners-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-prisoners-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-prisoners-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-prisoners-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Zodiac Styles *********************** */
+
+.browse-drama-zodiac {
+}
+
+.browse-drama-zodiac-desc {
+  background: url(/images/films/suspense/zodiac/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-zodiac-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-zodiac-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-zodiac-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-zodiac-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-zodiac-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Gone Girl Styles *********************** */
+
+.browse-drama-gone-girl {
+}
+
+.browse-drama-gone-girl-desc {
+  background: url(/images/films/suspense/gone-girl/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-gone-girl-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-gone-girl-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-gone-girl-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-gone-girl-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-gone-girl-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** La La Land Styles *********************** */
+
+.browse-drama-la-la-land {
+}
+
+.browse-drama-la-la-land-desc {
+  background: url(/images/films/romance/la-la-land/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-la-la-land-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-la-la-land-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-la-la-land-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-la-la-land-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-la-la-land-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Titanic Styles *********************** */
+
+.browse-drama-titanic {
+}
+
+.browse-drama-titanic-desc {
+  background: url(/images/films/romance/titanic/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-titanic-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-titanic-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-titanic-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-titanic-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-titanic-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** A Star Is Born Styles *********************** */
+
+.browse-drama-a-star-is-born {
+}
+
+.browse-drama-a-star-is-born-desc {
+  background: url(/images/films/romance/a-star-is-born/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-a-star-is-born-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-a-star-is-born-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-a-star-is-born-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-a-star-is-born-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-a-star-is-born-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** The Notebook Styles *********************** */
+
+.browse-drama-the-notebook {
+}
+
+.browse-drama-the-notebook-desc {
+  background: url(/images/films/romance/the-notebook/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-the-notebook-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-the-notebook-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-the-notebook-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-the-notebook-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-the-notebook-close-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+}
+
+/* ***************** Blue Valentine Styles *********************** */
+
+.browse-drama-blue-valentine {
+}
+
+.browse-drama-blue-valentine-desc {
+  background: url(/images/films/romance/blue-valentine/large.jpg);
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  height: 360px;
+}
+
+.browse-drama-blue-valentine-title-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse-drama-blue-valentine-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.browse-drama-blue-valentine-subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+}
+
+.browse-drama-blue-valentine-close-icon-wrapper {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.browse-drama-blue-valentine-close-icon {
   filter: brightness(0) invert(1);
   width: 24px;
 }
