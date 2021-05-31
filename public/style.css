@@ -953,7 +953,7 @@ body {
   transform: scale(1.2);
 }
 
- /* ***************** Fight Club Styles *********************** */
+/* ***************** Fight Club Styles *********************** */
 
 .browse-drama-fight-club {
 }
@@ -989,6 +989,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-fight-club-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-fight-club-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -999,7 +1005,7 @@ body {
   width: 24px;
 }
 
- /* ***************** The Prestige Styles *********************** */
+/* ***************** The Prestige Styles *********************** */
 
 .browse-drama-the-prestige {
 }
@@ -1035,6 +1041,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-the-prestige-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-the-prestige-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1047,7 +1059,7 @@ body {
 
 /* ***************** The Social Network Styles *********************** */
 
- .browse-drama-the-social-network {
+.browse-drama-the-social-network {
 }
 
 .browse-drama-the-social-network-desc {
@@ -1081,6 +1093,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-the-social-network-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-the-social-network-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1093,7 +1111,7 @@ body {
 
 /* ***************** The Revenant Styles *********************** */
 
- .browse-drama-the-revenant {
+.browse-drama-the-revenant {
 }
 
 .browse-drama-the-revenant-desc {
@@ -1125,6 +1143,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-the-revenant-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-the-revenant-close-icon-wrapper {
@@ -1173,6 +1197,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-kings-speech-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-kings-speech-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1217,6 +1247,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-night-crawler-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-night-crawler-close-icon-wrapper {
@@ -1265,6 +1301,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-the-silence-of-the-lambs-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-the-silence-of-the-lambs-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1309,6 +1351,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-black-swan-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-black-swan-close-icon-wrapper {
@@ -1357,6 +1405,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-joker-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-joker-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1401,6 +1455,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-a-quiet-place-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-a-quiet-place-close-icon-wrapper {
@@ -1449,6 +1509,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-hotel-transylvania-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-hotel-transylvania-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1493,6 +1559,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-spirited-away-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-spirited-away-close-icon-wrapper {
@@ -1541,6 +1613,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-up-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-up-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1585,6 +1663,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-frozen-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-frozen-close-icon-wrapper {
@@ -1633,6 +1717,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-despicable-me-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-despicable-me-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1677,6 +1767,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-shutter-island-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-shutter-island-close-icon-wrapper {
@@ -1725,6 +1821,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-seven-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-seven-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1769,6 +1871,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-prisoners-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-prisoners-close-icon-wrapper {
@@ -1817,6 +1925,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-zodiac-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-zodiac-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1861,6 +1975,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-gone-girl-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-gone-girl-close-icon-wrapper {
@@ -1909,6 +2029,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-la-la-land-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-la-la-land-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -1953,6 +2079,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-titanic-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-titanic-close-icon-wrapper {
@@ -2001,6 +2133,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-a-star-is-born-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-a-star-is-born-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -2047,6 +2185,12 @@ body {
   width: 500px;
 }
 
+@media screen and (max-width: 650px) {
+  .browse-drama-the-notebook-subtitle {
+    width: 270px;
+  }
+}
+
 .browse-drama-the-notebook-close-icon-wrapper {
   margin-right: 20px;
   margin-top: -10px;
@@ -2091,6 +2235,12 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   width: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .browse-drama-blue-valentine-subtitle {
+    width: 270px;
+  }
 }
 
 .browse-drama-blue-valentine-close-icon-wrapper {
