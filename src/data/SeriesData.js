@@ -1,4 +1,4 @@
-export const SeriesData = [
+export const seriesData = [
   {
     name: "tiger-king",
     title: "Tiger King",
