@@ -1,4 +1,4 @@
-export const data = [
+export const filmsData = [
   {
     name: "fight-club",
     title: "Fight Club",

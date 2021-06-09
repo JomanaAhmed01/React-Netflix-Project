@@ -5,16 +5,16 @@ import FooterLink from "../components/Footer/FooterLink"
 import FooterRow from "../components/Footer/FooterRow"
 import FooterTitle from "../components/Footer/FooterTitle"
 import FooterWrapper from "../components/Footer/FooterWrapper"
-import { data } from "../data/data"
+import { filmsData } from "../data/FilmsData"
 
 function Browse() {
   const [activeMovie, setActiveMovie] = useState("")
 
-  console.log("data:", data)
+  console.log("filmsData:", filmsData)
 
   console.log("active movie:", activeMovie)
 
-  const thriller = data
+  const thriller = filmsData
     .filter((item) => item.genre === "thriller")
     .map((item) => console.log(item.name))
 
@@ -51,7 +51,7 @@ function Browse() {
         <div className="browse-drama">
           <p className="browse-drama-title">Drama</p>
           <div className="browse-drama-movies">
-            {data.map((item) =>
+            {filmsData.map((item) =>
               item.genre === "drama" ? (
                 <img
                   className="browse-drama-pic"
@@ -62,7 +62,7 @@ function Browse() {
             )}
           </div>
 
-          {data
+          {filmsData
             .filter((item) => item.genre === "drama")
             .map((item) =>
               item.name === activeMovie ? (
@@ -97,7 +97,7 @@ function Browse() {
         <div className="browse-thriller">
           <p className="browse-thriller-title">Thriller</p>
           <div className="browse-thriller-movies">
-            {data.map((item) =>
+            {filmsData.map((item) =>
               item.genre === "thriller" ? (
                 <img
                   className="browse-thriller-pic"
@@ -108,7 +108,7 @@ function Browse() {
             )}
           </div>
 
-          {data
+          {filmsData
             .filter((item) => item.genre === "thriller")
             .map((item) =>
               item.name === activeMovie ? (
@@ -143,7 +143,7 @@ function Browse() {
         <div className="browse-children">
           <p className="browse-children-title">Children</p>
           <div className="browse-children-movies">
-            {data.map((item) =>
+            {filmsData.map((item) =>
               item.genre === "children" ? (
                 <img
                   className="browse-children-pic"
@@ -153,7 +153,7 @@ function Browse() {
               ) : null
             )}
 
-            {data
+            {filmsData
               .filter((item) => item.genre === "children")
               .map((item) =>
                 item.name === activeMovie ? (
@@ -189,7 +189,7 @@ function Browse() {
         <div className="browse-suspense">
           <p className="browse-suspense-title">Suspense</p>
           <div className="browse-suspense-movies">
-            {data.map((item) =>
+            {filmsData.map((item) =>
               item.genre === "suspense" ? (
                 <img
                   className="browse-suspense-pic"
@@ -199,7 +199,7 @@ function Browse() {
               ) : null
             )}
 
-            {data
+            {filmsData
               .filter((item) => item.genre === "suspense")
               .map((item) =>
                 item.name === activeMovie ? (
@@ -231,7 +231,7 @@ function Browse() {
         <div className="browse-romance">
           <p className="browse-romance-title">Romance</p>
           <div className="browse-romance-movies">
-            {data.map((item) =>
+            {filmsData.map((item) =>
               item.genre === "romance" ? (
                 <img
                   className="browse-romance-pic"
@@ -241,7 +241,7 @@ function Browse() {
               ) : null
             )}
           </div>
-          {data
+          {filmsData
             .filter((item) => item.genre === "romance")
             .map((item) =>
               item.name === activeMovie ? (
