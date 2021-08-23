@@ -1,8 +1,11 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom'
 
 function SigninBtn() {
+    const history = useHistory()
+
     return (
-        <a href="/signin" className="signin-btn">Sign In</a>
+        <div onClick={() => history.push('/signin')} className="signin-btn">Sign In</div>
     )
 }
 
