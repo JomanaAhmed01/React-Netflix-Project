@@ -32,12 +32,14 @@ body {
 .logo {
   margin-left: 55px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 950px) {
   .logo {
     width: 100px;
     margin-left: 42px;
+    cursor: pointer;
   }
 }
 
@@ -45,11 +47,12 @@ body {
   .logo {
     width: 85px;
     margin-left: 47px;
+    cursor: pointer;
   }
 }
 
 .signin-btn {
-  text-decoration: none;
+  cursor: pointer;
   color: #ffffff;
   background-color: #e50914;
   padding-left: 18px;
@@ -151,6 +154,7 @@ body {
   font-size: 25px;
   padding: 15px 40px;
   margin-bottom: 150px;
+  cursor: pointer;
 }
 
 @media (max-width: 950px) {
