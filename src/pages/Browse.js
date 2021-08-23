@@ -6,19 +6,20 @@ import FooterRow from "../components/Footer/FooterRow"
 import FooterTitle from "../components/Footer/FooterTitle"
 import FooterWrapper from "../components/Footer/FooterWrapper"
 import { filmsData } from "../data/FilmsData"
+import { seriesData } from "../data/SeriesData"
 
 function Browse() {
   const [activeMovie, setActiveMovie] = useState("")
+  const [activeCategory, setActiveCategory] = useState(filmsData)
+  const [showVideo, setShowVideo] = useState(false)
 
-  console.log("filmsData:", filmsData)
+  function showVideoTrailer() {
+    if (showVideo === false) {
+      setShowVideo(true)
+    }
+  }
 
-  console.log("active movie:", activeMovie)
-
-  const thriller = filmsData
-    .filter((item) => item.genre === "thriller")
-    .map((item) => console.log(item.name))
-
-  console.log("thr", thriller)
+  console.log("filmsData", filmsData)
 
   return (
     <div className="browse-wrapper">
@@ -26,14 +27,25 @@ function Browse() {
         <div className="browse-navbar">
           <Logo className="browse-logo" />
           <div className="browse-navbar-text">
-            <a href="#" className="browse-films">
+            <a
+              onClick={() => setActiveCategory(filmsData)}
+              className="browse-films"
+            >
               Films
             </a>
-            <a href="#" className="browse-series">
+            <a
+              onClick={() => setActiveCategory(seriesData)}
+              className="browse-series"
+            >
               Series
             </a>
           </div>
         </div>
+        {showVideo === true ? (
+          <div className="video-wrapper">
+            <video className="video" src="/videos/video.mp4" controls></video>
+          </div>
+        ) : null}
 
         <div className="browse-header">
           <p className="browse-title">Watch The Irish Man</p>
@@ -42,17 +54,23 @@ function Browse() {
             member of the Bufalino crime family in this acclaimed film from
             Martin Scorsese.
           </p>
-          <button className="browse-header-play-button">Play</button>
+          <button
+            onClick={showVideoTrailer}
+            className="browse-header-play-button"
+          >
+            Play
+          </button>
         </div>
       </div>
 
       <div className="browse-movies">
-        {/* ************** Start Of The Drama Movies ******************* */}
         <div className="browse-drama">
-          <p className="browse-drama-title">Drama</p>
+          <p className="browse-drama-title">
+            {activeCategory === filmsData ? "Drama" : "Documentaries"}
+          </p>
           <div className="browse-drama-movies">
-            {filmsData.map((item) =>
-              item.genre === "drama" ? (
+            {activeCategory.map((item) =>
+              item.genre === "drama" || item.genre === "documentaries" ? (
                 <img
                   className="browse-drama-pic"
                   src={item.smallImage}
@@ -62,8 +80,10 @@ function Browse() {
             )}
           </div>
 
-          {filmsData
-            .filter((item) => item.genre === "drama")
+          {activeCategory
+            .filter(
+              (item) => item.genre === "drama" || item.genre === "documentaries"
+            )
             .map((item) =>
               item.name === activeMovie ? (
                 <div className="browse-drama-fight-club">
@@ -83,22 +103,25 @@ function Browse() {
                     <p className="browse-drama-fight-club-subtitle">
                       {item.subTitle}
                     </p>
-                    <button className="browse-header-play-button">Play</button>
+                    <button
+                      onClick={showVideoTrailer}
+                      className="browse-header-play-button"
+                    >
+                      Play
+                    </button>
                   </div>
                 </div>
               ) : null
             )}
         </div>
 
-        {/* **************** End Of The Drama Movies ********************** */}
-
-        {/* **************** Start Of The Thriller Movies ***************** */}
-
         <div className="browse-thriller">
-          <p className="browse-thriller-title">Thriller</p>
+          <p className="browse-thriller-title">
+            {activeCategory === filmsData ? "Thriller" : "Comedies"}
+          </p>
           <div className="browse-thriller-movies">
-            {filmsData.map((item) =>
-              item.genre === "thriller" ? (
+            {activeCategory.map((item) =>
+              item.genre === "thriller" || item.genre === "comedies" ? (
                 <img
                   className="browse-thriller-pic"
                   src={item.smallImage}
@@ -108,11 +131,13 @@ function Browse() {
             )}
           </div>
 
-          {filmsData
-            .filter((item) => item.genre === "thriller")
+          {activeCategory
+            .filter(
+              (item) => item.genre === "thriller" || item.genre === "comedies"
+            )
             .map((item) =>
               item.name === activeMovie ? (
-                <div className="browse-drama-night-crawler">
+                <div className="browse-drama-fight-club">
                   <div className={`browse-drama-${item.name}-desc`}>
                     <div className="browse-drama-night-crawler-title-and-icon-wrapper">
                       <p className="browse-drama-night-crawler-title">
@@ -129,21 +154,22 @@ function Browse() {
                     <p className="browse-drama-night-crawler-subtitle">
                       {item.subTitle}
                     </p>
-                    <button className="browse-header-play-button">Play</button>
+                    <button
+                      onClick={showVideoTrailer}
+                      className="browse-header-play-button"
+                    >
+                      Play
+                    </button>
                   </div>
                 </div>
               ) : null
             )}
         </div>
 
-        {/* ****************** End Of Thriller Movies ******************* */}
-
-        {/* ****************** Start Of Children Movies ******************* */}
-
         <div className="browse-children">
           <p className="browse-children-title">Children</p>
           <div className="browse-children-movies">
-            {filmsData.map((item) =>
+            {activeCategory.map((item) =>
               item.genre === "children" ? (
                 <img
                   className="browse-children-pic"
@@ -153,7 +179,7 @@ function Browse() {
               ) : null
             )}
 
-            {filmsData
+            {activeCategory
               .filter((item) => item.genre === "children")
               .map((item) =>
                 item.name === activeMovie ? (
@@ -172,7 +198,10 @@ function Browse() {
                       <p className="browse-drama-up-subtitle">
                         {item.subTitle}
                       </p>
-                      <button className="browse-header-play-button">
+                      <button
+                        onClick={showVideoTrailer}
+                        className="browse-header-play-button"
+                      >
                         Play
                       </button>
                     </div>
@@ -182,15 +211,13 @@ function Browse() {
           </div>
         </div>
 
-        {/* **************** End Of Children Movies ******************* */}
-
-        {/* **************** Start Of Suspense Movies ******************* */}
-
         <div className="browse-suspense">
-          <p className="browse-suspense-title">Suspense</p>
+          <p className="browse-suspense-title">
+            {activeCategory === filmsData ? "Suspense" : "Crime"}
+          </p>
           <div className="browse-suspense-movies">
-            {filmsData.map((item) =>
-              item.genre === "suspense" ? (
+            {activeCategory.map((item) =>
+              item.genre === "suspense" || item.genre === "crime" ? (
                 <img
                   className="browse-suspense-pic"
                   src={item.smallImage}
@@ -199,8 +226,10 @@ function Browse() {
               ) : null
             )}
 
-            {filmsData
-              .filter((item) => item.genre === "suspense")
+            {activeCategory
+              .filter(
+                (item) => item.genre === "suspense" || item.genre === "crime"
+              )
               .map((item) =>
                 item.name === activeMovie ? (
                   <div className="browse-drama-up">
@@ -218,7 +247,10 @@ function Browse() {
                       <p className="browse-drama-up-subtitle">
                         {item.subTitle}
                       </p>
-                      <button className="browse-header-play-button">
+                      <button
+                        onClick={showVideoTrailer}
+                        className="browse-header-play-button"
+                      >
                         Play
                       </button>
                     </div>
@@ -229,10 +261,12 @@ function Browse() {
         </div>
 
         <div className="browse-romance">
-          <p className="browse-romance-title">Romance</p>
+          <p className="browse-romance-title">
+            {activeCategory === filmsData ? "Romance" : "Feel-Good"}
+          </p>
           <div className="browse-romance-movies">
-            {filmsData.map((item) =>
-              item.genre === "romance" ? (
+            {activeCategory.map((item) =>
+              item.genre === "romance" || item.genre === "feel-good" ? (
                 <img
                   className="browse-romance-pic"
                   src={item.smallImage}
@@ -241,8 +275,10 @@ function Browse() {
               ) : null
             )}
           </div>
-          {filmsData
-            .filter((item) => item.genre === "romance")
+          {activeCategory
+            .filter(
+              (item) => item.genre === "romance" || item.genre === "feel-good"
+            )
             .map((item) =>
               item.name === activeMovie ? (
                 <div className="browse-drama-the-notebook">
@@ -262,7 +298,12 @@ function Browse() {
                     <p className="browse-drama-the-notebook-subtitle">
                       {item.subTitle}
                     </p>
-                    <button className="browse-header-play-button">Play</button>
+                    <button
+                      onClick={showVideoTrailer}
+                      className="browse-header-play-button"
+                    >
+                      Play
+                    </button>
                   </div>
                 </div>
               ) : null
