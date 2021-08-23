@@ -34,8 +34,8 @@ export const seriesData = [
   {
     name: "amanda-knox",
     title: "Amanda Knox",
-    genre: "documentaires",
-    smallImage: "/images/series/documentaires/amanda-knox/small.jpg",
+    genre: "documentaries",
+    smallImage: "/images/series/documentaries/amanda-knox/small.jpg",
     subTitle:
       "Amanda Marie Knox is an American woman who spent almost four years in an Italian prison.",
   },
