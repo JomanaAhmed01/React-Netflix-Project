@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react"
+import { useHistory } from "react-router-dom"
 
 function OptFormBtn() {
-    return (
-        <a href="/browse" className="optform-btn">GET STARTED</a>
-    )
+  const history = useHistory()
+
+  return (
+    <div onClick={() => history.push("/browse")} className="optform-btn">
+      GET STARTED
+    </div>
+  )
 }
 
-export default OptFormBtn;
+export default OptFormBtn

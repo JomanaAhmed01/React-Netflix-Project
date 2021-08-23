@@ -39,6 +39,7 @@ body {
   .logo {
     width: 100px;
     margin-left: 42px;
+    cursor: pointer;
   }
 }
 
@@ -46,6 +47,7 @@ body {
   .logo {
     width: 85px;
     margin-left: 47px;
+    cursor: pointer;
   }
 }
 
@@ -152,6 +154,7 @@ body {
   font-size: 25px;
   padding: 15px 40px;
   margin-bottom: 150px;
+  cursor: pointer;
 }
 
 @media (max-width: 950px) {
