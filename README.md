@@ -128,7 +128,7 @@ It contains useful links users may need it.
 ***### The page is fully responsive to all mobile devices even the small ones. ###***
 
 # Live Demo 
-
+***Take a look on the live version here:*** https://bit.ly/react-netflix-clone-live01 :octocat: :heart_eyes: 
 
 
 # Technology Used
