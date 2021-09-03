@@ -1,11 +1,14 @@
 <h1 align="center">
   <img title="Netflix" src="https://fhsknightlife.com/wp-content/uploads/2020/04/uVASXqvMzyUrAPfSn9pMtxOC7s89ulzdDKBdtqCP.png" alt="NETFLIX Logo" width="400" />
   <br>
-  Netflix Clone Built Using React.JS
+  Netflix Clone Built Using React.JS & CSS
 </h1>
 
 <p><font size="3">
-  This is a clone of Netflix website built using <strong><em>React.JS</em></strong>, It's not a replica, and it doesn't have all the features of Netflix website. it's a similar version of Netflix with my own design touch, showing my abilities in React.JS to build something advanced like Netflix. It contains the home page, sign-in page, sign-up page.
+  This is a clone of Netflix website built using <strong><em>React.JS & CSS</em></strong>, It's not a replica, and it doesn't have all the features of Netflix website. it's a similar version of Netflix with my own design touch, showing my abilities in React.JS to build something advanced like Netflix. It contains the home page, sign-in page, sign-up page.
+  <br>
+  <br>
+  <strong>Take a look at the live version here: https://bit.ly/react-netflix-clone-live01 :octocat: :heart_eyes:</strong> 
 </p>
 
 ## Table of Contents
@@ -16,7 +19,6 @@
   - [Sign-up Page](#sign-up-page)
 - [Live Demo](#live-demo)
 - [Technology Used](#technology-used)
-- [How To Use](#how-to-use)
 - [Author](#author)
 - [Show Your Support](#show-your-support)
 - [Acknowledgments](#acknowledgments)
@@ -128,27 +130,18 @@ It contains useful links users may need it.
 ***### The page is fully responsive to all mobile devices even the small ones. ###***
 
 # Live Demo 
-***Take a look on the live version here:*** https://bit.ly/react-netflix-clone-live01 :octocat: :heart_eyes: 
+***Take a look at the live version here:*** https://bit.ly/react-netflix-clone-live01 :octocat: :heart_eyes: 
 
 
 # Technology Used
 
 I have built this project using the following tools & techniques:
 - React.JS
-- React Router.
-- React Forms.
 - React Hooks.
-- useState.
-- useContext.
-- useEffect.
-- useHistory.
-- useState.
 - Compound Components.
 - JSX.
 - CSS Modules.
 - VSCode.
-- Github Actions.
-- Github Pages.
 
 # Author
 
