@@ -5,7 +5,7 @@
 </h1>
 
 <p><font size="3">
-  This is a clone of Netflix website built using <strong><em>React.JS & CSS</em></strong>, It's not a replica, and it doesn't have all the features of Netflix website. it's a similar version of Netflix with my own design touch, showing my abilities in React.JS to build something advanced like Netflix. It contains the home page, sign-in page, sign-up page.
+  This is a clone of Netflix website built using <strong><em>React.JS & CSS</em></strong>, It's not a replica, and it doesn't have all the features of Netflix website. it's a similar version of Netflix with my own design touch, showing my abilities in React.JS to build something advanced like Netflix. It contains the home page, sign-in page, sign-up page and browse page.
   <br>
   <br>
   <strong>Take a look at the live version here: https://bit.ly/react-netflix-clone-live01 :octocat: :heart_eyes:</strong> 
@@ -17,6 +17,7 @@
   - [Home Page](#home-page)
   - [Sign-in Page](#sign-in-page)
   - [Sign-up Page](#sign-up-page)
+  - [Browse Page](#browse-page)
 - [Live Demo](#live-demo)
 - [Technology Used](#technology-used)
 - [Author](#author)
@@ -125,6 +126,42 @@ it redirects you to the home page when you click on it.
 
 
 ***3) Footer:***
+It contains useful links users may need it.
+
+***### The page is fully responsive to all mobile devices even the small ones. ###***
+
+
+ # Browse page
+ 
+<div align="center"><a name="menu"></a>
+
+![Screen Shot 2021-07-03 at 01 32 16](https://user-images.githubusercontent.com/66492958/124336513-94a3a380-db9e-11eb-8513-05d26a252149.png)
+![image](https://user-images.githubusercontent.com/66492958/124336844-05978b00-dba0-11eb-8ad5-ba7bf8e6ff83.png)
+![image](https://user-images.githubusercontent.com/66492958/124336887-4394af00-dba0-11eb-8339-3d47d9d848d3.png)
+![image](https://user-images.githubusercontent.com/66492958/124336917-5dce8d00-dba0-11eb-9c88-6cfcf8da8354.png)
+</div>
+
+The Browse Page consists of 4 main sections:
+
+***1) Header, which includes:***
+- Logo: 
+it redirects you to the home page when you click on it.
+
+- Films: 
+it redirects you to the films section when you click on it.
+
+- Series: 
+it redirects you to the series section when you click on it.
+
+***2) Films section, which includes:***
+- Films: 
+when you click on the image of the film, it shows to you film's title & description, it shows to you a button that allows you to open up the film's trailer, too.
+
+***3) Series section, which includes:***
+- Series: 
+when you click on the image of the series, it shows to you series's title & description, it shows to you a button that allows you to open up the series's trailer, too.
+
+***4) Footer:***
 It contains useful links users may need it.
 
 ***### The page is fully responsive to all mobile devices even the small ones. ###***
